@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\",
+  "WorkspaceRootPath": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\practice-dotnet9\\productapi\\productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\practice-dotnet9\\productapi\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\dot-net-playground\\practiceproject-01\\productapi\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\practice-dotnet9\\productapi\\productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\practice-dotnet9\\productapi\\productapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\dot-net-playground\\practiceproject-01\\productapi\\productapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\practice-dotnet9\\productapi\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\dot-net-playground\\practiceproject-01\\productapi\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|f:\\01codebase\\dot-net-playground\\practiceproject-01\\productapi\\productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05597BD9-2A2D-4EB4-B803-EB7C2FE72AB4}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,67 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ProductApi\\Controllers\\ProductsController.cs",
-              "ToolTip": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ProductApi\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T01:36:51.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Program.cs",
+              "DocumentMoniker": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\Program.cs",
               "RelativeDocumentMoniker": "ProductApi\\Program.cs",
-              "ToolTip": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Program.cs",
+              "ToolTip": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\Program.cs",
               "RelativeToolTip": "ProductApi\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T01:08:02.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ProductApi\\Data\\AppDbContext.cs",
-              "ToolTip": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\Data\\AppDbContext.cs",
               "RelativeToolTip": "ProductApi\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T00:56:21.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ProductApi\\Models\\Product.cs",
-              "ToolTip": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\Models\\Product.cs",
-              "RelativeToolTip": "ProductApi\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T00:55:05.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T00:56:21.092Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\Product.cs",
+              "ToolTip": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\Models\\Product.cs",
+              "RelativeToolTip": "ProductApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T00:55:05.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\appsettings.json",
+              "DocumentMoniker": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\appsettings.json",
               "RelativeDocumentMoniker": "ProductApi\\appsettings.json",
-              "ToolTip": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\appsettings.json",
+              "ToolTip": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\appsettings.json",
               "RelativeToolTip": "ProductApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-17T00:49:18.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T00:49:18.014Z"
             }
           ]
         }

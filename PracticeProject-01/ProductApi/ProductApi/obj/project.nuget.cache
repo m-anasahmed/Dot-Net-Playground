@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zIa5H8Ut8lY=",
+  "dgSpecHash": "UuqmE89s4Kw=",
   "success": true,
-  "projectFilePath": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

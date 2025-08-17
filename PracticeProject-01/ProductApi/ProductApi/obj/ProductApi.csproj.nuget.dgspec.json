@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\ProductApi.csproj": {}
+    "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\ProductApi.csproj": {
+    "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\ProductApi.csproj",
+        "projectPath": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "F:\\01CodeBase\\Practice-DotNet9\\ProductApi\\ProductApi\\obj\\",
+        "outputPath": "F:\\01CodeBase\\Dot-Net-Playground\\PracticeProject-01\\ProductApi\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

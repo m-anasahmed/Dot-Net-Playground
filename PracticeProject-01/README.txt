@@ -1,1 +1,1 @@
-*** This project Frontend, Backend and DataBase also Works only on Local Host. ***
+*** This project Frontend and Backend Works on Local Host and Data Base is Deploy on Online server. ***

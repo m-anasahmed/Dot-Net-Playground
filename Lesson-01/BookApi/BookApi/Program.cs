@@ -34,15 +34,32 @@ app.MapGet("/books/{id:int}", (int id) =>
 })
 .WithName("GetBookById");
 
-//Post /books => create (400 if Title empty)
+//Post /books => create (400 if Title empty, 400 if Year < 0, 409 if duplicate title)
 app.MapPost("/books", (BookCreateDto dto) =>
 {
-    if (string.IsNullOrWhiteSpace(dto.Title))
-    {
+    // 01 Basic Validation.
+    if(string.IsNullOrWhiteSpace(dto.Title)){
         return Results.BadRequest(new { error = "Title can not be empty." });
     }
+    // 02 Non-Negative Validation.
+    if(dto.Year < 0){
+        return Results.BadRequest(new {error = "Year must be non-negative."});
+    }
 
-    var book = new Book(nextId++, dto.Title.Trim(), dto.Author, dto.Year);
+    // Normalize inout title once.
+    var normalizedTitle = dto.Title.Trim();
+
+    // 3) Duplicate check (case-insensitive)
+    var isDuplicate = books.Any(b => 
+        string.Equals(b.Title, normalizedTitle, StringComparison.OrdinalIgnoreCase));
+
+    // Validation Condition
+    if (isDuplicate){
+        return Results.Conflict(new { error = "A book with this title already exist." });
+    }
+
+    // 4) Create
+    var book = new Book(nextId++, normalizedTitle, dto.Author, dto.Year);
     books.Add(book);
 
     return Results.Created($"/books/{book.Id}", book);
@@ -59,7 +76,7 @@ app.MapPut("/books/{id:int}", (int id, BookUpdateDto dto) =>
 
     // If Title is provided, it cannot be empty
     if (dto.Title is not null && string.IsNullOrWhiteSpace(dto.Title))
-        return Results.BadRequest(new { error = "Title can not be empty id provided." });
+        return Results.BadRequest(new { error = "Title can not be empty if provided." });
 
     var current = books[index];
     var updated = current with

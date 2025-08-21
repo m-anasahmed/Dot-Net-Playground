@@ -6,7 +6,23 @@
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "author",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Void",
@@ -14,9 +30,9 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "Get Books",
-    "Description": "Return every book currently stored in memory,",
-    "Summary": "List all Books"
+    "EndpointName": "GetBooks",
+    "Description": "Use query params ?author=... and/or ?year=... to filter. Author match is case-insensitive.",
+    "Summary": "List books (with optional filters)"
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",

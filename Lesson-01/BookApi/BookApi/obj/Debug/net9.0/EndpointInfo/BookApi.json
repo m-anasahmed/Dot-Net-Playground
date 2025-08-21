@@ -10,9 +10,33 @@
         "tags": [
           "BookApi"
         ],
-        "summary": "List all Books",
-        "description": "Return every book currently stored in memory,",
-        "operationId": "Get Books",
+        "summary": "List books (with optional filters)",
+        "description": "Use query params ?author=... and/or ?year=... to filter. Author match is case-insensitive.",
+        "operationId": "GetBooks",
+        "parameters": [
+          {
+            "name": "title",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "author",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

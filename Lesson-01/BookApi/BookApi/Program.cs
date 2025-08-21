@@ -49,13 +49,21 @@ app.MapGet("/books", (string? title, string? author, int? year) =>
 .WithDescription("Use query params ?author=... and/or ?year=... to filter. Author match is case-insensitive.");
 
 
-// Get /books/{id} => single
+// Get /books/{id} => single (Return Problem if not found)
 app.MapGet("/books/{id:int}", (int id) =>
 {
     var book = books.FirstOrDefault(b => b.Id == id);
-    return book is not null ? Results.Ok(book) : Results.NotFound();
+
+    if(book is null)
+    {
+        return Results.Problem(statusCode: 404, title: "Not Found!!!", detail: $"No Book with id: {id}");
+    }
+
+    return Results.Ok(book);
 })
-.WithName("GetBookById");
+.WithName("GetBookById")
+.WithSummary("Get book by ID")
+.WithDescription("Returns the book with the specified ID. If not found, returns a ProblemDetails response with 404 status.");
 
 //Post /books => create (400 if Title empty, 400 if Year < 0, 409 if duplicate title)
 app.MapPost("/books", (BookCreateDto dto) =>

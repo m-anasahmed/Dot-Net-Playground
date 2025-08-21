@@ -80,7 +80,9 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "GetBookById"
+    "EndpointName": "GetBookById",
+    "Description": "Returns the book with the specified ID. If not found, returns a ProblemDetails response with 404 status.",
+    "Summary": "Get book by ID"
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",

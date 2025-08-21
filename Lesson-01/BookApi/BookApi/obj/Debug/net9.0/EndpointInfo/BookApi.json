@@ -72,6 +72,8 @@
         "tags": [
           "BookApi"
         ],
+        "summary": "Get book by ID",
+        "description": "Returns the book with the specified ID. If not found, returns a ProblemDetails response with 404 status.",
         "operationId": "GetBookById",
         "parameters": [
           {

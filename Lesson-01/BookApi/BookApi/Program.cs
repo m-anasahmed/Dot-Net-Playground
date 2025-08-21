@@ -17,14 +17,37 @@ app.UseSwaggerUI();
 var books = new List<Book>();
 var nextId = 1;
 
-// Get /books => List
-app.MapGet("/books", () =>
+// GET /books ? list (optionally filter by author and/or year via query string)
+app.MapGet("/books", (string? title, string? author, int? year) =>
 {
-    return Results.Ok(books);
+    IEnumerable<Book> query = books;
+
+    // If 'Title' was provided (?Title=...), filter case-insensitively and ignore leading/trailing spaces
+    if (!string.IsNullOrWhiteSpace(title))
+    {
+        var titleFilter = title.Trim();
+        query = query.Where(b => b.Title.Contains(titleFilter, StringComparison.OrdinalIgnoreCase));
+    }
+
+    // If 'author' was provided (?author=...), filter case-insensitively and ignore leading/trailing spaces
+    if (!string.IsNullOrWhiteSpace(author))
+    {
+        var authorFilter = author.Trim();
+        query = query.Where(b => b.Author.Contains(authorFilter, StringComparison.OrdinalIgnoreCase));
+    }
+
+    // If 'year' was provided (?year=...), filter exact year
+    if (year is not null)
+    {
+        query = query.Where(b => b.Year == year.Value);
+    }
+
+    return Results.Ok(query);
 })
-.WithName("Get Books")
-.WithSummary("List all Books")
-.WithDescription("Return every book currently stored in memory,");
+.WithName("GetBooks")
+.WithSummary("List books (with optional filters)")
+.WithDescription("Use query params ?author=... and/or ?year=... to filter. Author match is case-insensitive.");
+
 
 // Get /books/{id} => single
 app.MapGet("/books/{id:int}", (int id) =>
